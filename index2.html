@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Itim&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="variaveis.css">
+    <link rel="stylesheet" href="index2.css">       
+</head>
+<body>
+    
+    <main>
+        <h1 class="titulo">AC - Ação Cidadã</h1>
+
+        <section class="secaoDescricao">
+            <div class="divDescricao">
+                <h3 class="tituloDescricao" id="objetivos">Objetivos </h3>
+                <p class="textoDescricao" style="display: none;" id="objetivosDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptatum quasi sapiente nulla ducimus. Numquam quam necessitatibus consequuntur atque corporis quas similique maiores ipsam quia suscipit, voluptatum dicta at magnam!</p>
+            </div>
+            <div class="divDescricao">
+                <h3 class="tituloDescricao" id="problematica">Problemática </h3>
+                <p class="textoDescricao" style="display: none;" id="problematicaDesc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit optio cumque soluta. Neque, architecto labore. Eos eum ea aperiam cumque ducimus voluptate. Amet nemo, velit illum iste consequatur quidem omnis.</p>
+            </div>
+            <div class="divDescricao">
+                <h3 class="tituloDescricao" id="vantagens">Vantagens </h3>
+                <p class="textoDescricao" style="display: none;" id="vantagensDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur qui, dolorem possimus vitae optio quaerat aliquam sint natus distinctio et quibusdam in aspernatur iste minima alias porro temporibus ut!</p>
+            </div>
+            <div class="divDescricao">
+                <h3 class="tituloDescricao" id="comunidade">Comunidade</h3>
+                <p class="textoDescricao" style="display: none;" id="comunidadeDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tempora exercitationem ea optio laboriosam suscipit fuga voluptatem nihil nesciunt explicabo quod, quaerat modi aut deleniti assumenda dolorum adipisci laudantium aliquam.</p>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const titulos = document.querySelectorAll(".tituloDescricao");
+
+        titulos.forEach(titulo => {
+            titulo.addEventListener("click", () => {
+                const descricaoId = titulo.getAttribute("id") + "Desc";
+                const descricao = document.getElementById(descricaoId);
+
+                if (descricao.style.display === "none" || descricao.style.display === "") {
+                    descricao.style.display = "block";
+                } else {
+                    descricao.style.display = "none";
+                }
+            });
+        });
+
+    </script>
+
+</body>
+</html>

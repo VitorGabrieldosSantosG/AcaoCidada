@@ -1,0 +1,47 @@
+.titulo {
+    font-size: 5rem;
+    text-decoration: double;
+    font-family: "K2D";
+    color: var(--branco);
+    background-color: var(--preto);
+    border: 5px solid black;
+    border-radius: 50px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.divDescricao {
+    width: 50%;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    box-shadow: 0px 0px 5px rgb(25, 25, 25);
+    font-family: var(--fonteTexto);
+    background-color: var(--azul);
+}
+
+.divDescricao:nth-child(2), .divDescricao:nth-child(4){
+    margin-left: 48%;
+    direction: rtl;
+    background-color: var(--verde);
+}
+
+.tituloDescricao {
+    cursor: pointer;
+}
+
+.tituloDescricao::before {
+    content: "+";
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border: 1px solid black;
+    border-radius: 360px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 1rem;
+}
