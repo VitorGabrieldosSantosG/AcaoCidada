@@ -13,13 +13,21 @@ body {
     justify-content: space-around;
     align-items: center;
     font-family: #554865;
-    background-color:     #352630;
-    
+    background-color: #f3a36b;
+
 }
 
 .imagemLogo {
-    width: 6rem;
+    width: 5rem;
     height: 5rem;
+}
+
+.imagemLogo:nth-child(2){
+
+    width: 2rem;
+    height: 2rem;
+
+    padding -bottom: 2rem;
 }
 
 .textosCabecalho {
@@ -74,16 +82,20 @@ body {
     width: 100%;
     height: 50rem;
 
+    background-color: #cd5b51;
 
-    margin-top: 2rem;
-
-    background-color: #554865;
-
-    box-shadow: 1px 1px 10px black;
+    /* box-shadow: 1px 1px 5px black; */
 
     display: flex;
 
 }
+
+.campoTextoDescricao {
+    color: #f3a36b  ;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
 
 .campoTextos {
     width: 50%;
@@ -97,8 +109,13 @@ body {
 }
 
 .imagemInicio {
-    width: 50%;
-    height: 100%;
+    width: 50rem;
+
+    margin: 2rem;
+
+    border-radius: 25px;
+    /* border-top-left-radius: 25px; */
+
     opacity: 80%;
 }
 
@@ -139,19 +156,70 @@ body {
     font-family: var(--fonteTexto);
 }
 
+
 .tituloDescricao {
+    cursor: pointer;
     color: #f3a36b;
+    margin: 1rem;
+}
+
+.campoDescricao:hover {
+    animation: decorarTitulo forwards 1s ;
+}
+
+@keyframes decorarTitulo {
+
+    100%{
+        background-color: #554865;
+    }
+}
+
+.tituloDescricao::before {
+    content: "+";
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+    text-align: center;
 }
 
 
+.Integrantes {
+    display: flex;
+    justify-content: space-around;
+}
 
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.imagemPovo {
+    border-radius: 100%;
+    margin-bottom: 1rem;
+    width: 10rem;
+    height: 10rem;
+}
 
+.nome {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
 
+.curso {
+    font-family: var(--fonteTexto);
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
 
+.github::before {
+    margin-right: 1rem;
+}
 
-
-
+.github:nth-child(1) {
+    margin-top: 1.5rem;
+}
 
 /* 
 .cards {
