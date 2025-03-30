@@ -20,8 +20,8 @@
         <img src="./Src/IMG/book_14548171 (1).png" alt="" class="imagemLogo">
         <div class="textosCabecalho">
             <a href="" class="linkCabecalho">Home</a>
-            <a href="" class="linkCabecalho">Comunidade</a>
-            <a href="" class="linkCabecalho">Quem Somos</a>
+            <a href="#comunidade" class="linkCabecalho">Comunidade</a>
+            <a href="#quemSomos" class="linkCabecalho">Quem Somos</a>
         </div>
         <img src="./Src/IMG/UniFil_Logo_Vertical-01.jpg" alt="" class="imagemLogo">
     </header>
@@ -40,7 +40,6 @@
 
         <section class="secaoDescricao">
             <h2 class="tituloDescricaoProjeto">Detalhes do projeto</h2>
-            <!-- Descrição do site -->
             <div class="campoDescricao">
                 <h3 class="tituloDescricao">Apresentação do projeto</h3>
                 <div class="campoTextoDescricao" style="display: none;">
@@ -58,7 +57,6 @@
                         sociais, órgãos públicos.</p>
                 </div>
             </div>
-            <!-- Razão da criação do aplicativo -->
             <div class="campoDescricao">
                 <h3 class="tituloDescricao">Sobre o aplicativo</h3>
                 <div class="campoTextoDescricao" style="display: none;">
@@ -98,14 +96,12 @@
                     </p>
                 </div>
             </div>
-            <!-- Comunidade -->
-            <div class="campoDescricao">
+            <div class="campoDescricao" id="comunidade">
                 <h3 class="tituloDescricao">Comunidade</h3>
                 <div class="campoTextoDescricao" style="display: none;">
                     <p class="textoDescricao">
                         O aplicativo "Ação Cidadã" é voltado para toda a população, abrangendo jovens, adultos e idosos
-                        que enfrentam desafios em seu dia a dia e buscam soluções eficazes para problemas que podem ser
-                        resolvidos pelo poder público ou até mesmo por empresas privadas.</p>
+                        que enfrentam desafios como (problemas em estradas, situações que possam afetar a saúde da popula, etc) em seu dia a dia e buscam soluções eficazes para problemas que podem ser resolvidos pelo poder público ou até mesmo por empresas privadas.</p>
                     <p class="textoDescricao">
                         A plataforma foi desenvolvida para ser acessível e intuitiva, permitindo que qualquer cidadão
                         registre ocorrências e acompanhe o andamento das solicitações. Dessa forma, "Ação Cidadã" se
@@ -113,8 +109,7 @@
                         infraestrutura urbana e da qualidade de vida da comunidade.</p>
                 </div>
             </div>
-            <!-- Equipe -->
-            <div class="campoDescricao">
+            <div class="campoDescricao" id="quemSomos">
                 <h3 class="tituloDescricao">Equipe</h3>
                 <div class="campoTextoDescricao" style="display: none;">
                     <div class="Integrantes">
@@ -166,7 +161,6 @@
                     </div>
                 </div>
             </div>
-            <!-- Reflexão sobre a extensão curricular -->
             <div class="campoDescricao">
                 <h3 class="tituloDescricao">Sobre a extensão currricular</h3>
                 <div class="campoTextoDescricao" style="display: none;">
@@ -188,38 +182,17 @@
     </main>
 
     <script>
-        // Get all the title elements
         const titulos = document.querySelectorAll('.campoDescricao');
 
-        // Add a click event listener to each title
         titulos.forEach(titulo => {
             titulo.addEventListener('click', () => {
-                // Get the corresponding description element
                 const description = titulo.lastElementChild;
 
-                // Toggle the display of the description
                 description.style.display = description.style.display === 'none' ? 'block' : 'none';
             });
         });
+
     </script>
-
-
-    <!-- <div class="cards">
-                    <div class="cardApresentacao">
-                        <h3 class="subTitulo">Projeto: </h3>
-                        <p class="textoDescricaoProjeto">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Accusantium dicta facere reprehenderit fugit magnam maxime adipisci laudantium. Amet, quis nam
-                            molestiae expedita, assumenda dolores architecto, tempora aliquam rem veniam vitae.</p>
-                        <button class="botaoAcessar" id="botaoAcessarProjeto">Acessar Detalhes -></button>
-                    </div>
-                    <div class="cardApresentacao">
-                        <h3 class="subTitulo">Equipe: </h3>
-                        <p class="textoDescricaoProjeto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-                            nulla adipisci perferendis modi, dolor ipsa magni dolore blanditiis necessitatibus aliquam
-                            possimus quasi nisi eveniet unde esse veritatis placeat, quaerat accusamus?</p>
-                        <button class="botaoAcessar" id="botaoAcessarEquipe">Acessar Detalhes -></button>
-                    </div>
-                </div> -->
 
 </body>
 

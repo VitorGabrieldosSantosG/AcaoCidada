@@ -24,10 +24,10 @@ body {
 
 .imagemLogo:nth-child(2){
 
-    width: 2rem;
-    height: 2rem;
+    width: 4rem;
+    height: 3rem;
 
-    padding -bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 .textosCabecalho {
@@ -84,8 +84,6 @@ body {
 
     background-color: #cd5b51;
 
-    /* box-shadow: 1px 1px 5px black; */
-
     display: flex;
 
 }
@@ -95,7 +93,6 @@ body {
     margin-left: 1rem;
     cursor: pointer;
 }
-
 
 .campoTextos {
     width: 50%;
@@ -114,7 +111,6 @@ body {
     margin: 2rem;
 
     border-radius: 25px;
-    /* border-top-left-radius: 25px; */
 
     opacity: 80%;
 }
@@ -220,41 +216,3 @@ body {
 .github:nth-child(1) {
     margin-top: 1.5rem;
 }
-
-/* 
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.cardApresentacao {
-    width: 15rem;
-    height: auto ;
-    margin: 2rem;
-    padding: 1rem;
-    border-radius: 15px;
-    background-color: var(--branco);
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    color: var(--branco);
-    font-family: var(--fonteTexto);
-}
-
-.cardApresentacao:nth-child(1){
-    background-color: var(--azul);
-}
-
-.cardApresentacao:nth-child(2){
-    background-color: var(--vermelho);
-}
-
-.botaoAcessar {
-    width: 100%;
-    height: 3rem;
-    padding: 1rem;
-    border: none;
-    border-radius: 15px;
-    background-color: var(--verde);
-    color: var(--branco);
-    cursor: pointer;
-} */
