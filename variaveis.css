@@ -1,11 +1,25 @@
-:root{
+:root {
 
-    --vermelho : #F26C4F;
-    --verde : #38C958;
-    --azul : #3A89C9;
+    --vermelho: #F26C4F;
+    --verde: #38C958;
+    --azul: #3A89C9;
     --azulEscuro: #3175ae;
-    --branco : #F3F4E5;
-    --preto : #232226;
+    --branco: #F3F4E5;
+    --preto: #232226;
+
+    --primary-color: #E85D04;
+    --secondary-color: #F48C06;
+    --dark-color: #333;
+    --light-color: #FFFFFF;
+    --background-color: #FFF8F0;
+    --text-color: #4A4A4A;
+    --border-color: #ddd;
+
+    --font-heading: 'Poppins', sans-serif;
+    --font-body: 'Lato', sans-serif;
+
+    --shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    --border-radius: 12px;
 
     --fonteTitulo: "Itim";
     --fonteTexto: "K2D";

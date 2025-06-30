@@ -10,185 +10,231 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Itim&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Lato:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <link rel="stylesheet" href="variaveis.css">
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
 
-    <header class="cabecalho">
-        <img src="./Src/IMG/book_14548171 (1).png" alt="" class="imagemLogo">
-        <div class="textosCabecalho">
-            <a href="" class="linkCabecalho">Home</a>
-            <a href="#comunidade" class="linkCabecalho">Comunidade</a>
-            <a href="#quemSomos" class="linkCabecalho">Quem Somos</a>
+    <header class="header" id="header">
+        <div class="logo-container">
+            <img src="./Src/IMG/book_14548171 (1).png" alt="Logo Ação Cidadã" class="logo">
+            <span class="nav-link" style="font-weight: 700; font-size: 1.2rem;">Ação Cidadã</span>
         </div>
-        <img src="./Src/IMG/UniFil_Logo_Vertical-01.jpg" alt="" class="imagemLogo">
+        <nav class="nav-links">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#projeto" class="nav-link">Projeto</a>
+            <a href="#documentos" class="nav-link">Documentos</a>
+            <a href="#quem-somos" class="nav-link">Quem Somos</a>
+        </nav>
+        <img src="./Src/IMG/UniFil_Logo_Vertical-01.jpg" alt="Logo UniFil" class="logo">
     </header>
 
-    <main class="principal">
+    <main>
 
-        <section class="secaoApresentacao">
-            <div class="campoTextos">
-                <h1 class="tituloProjeto">AC - Ação Cidadã</h1>
-                <p class="textoInicio">
-                    Está com um problemão? Você pode ter a solução logo em suas mãos!!
-                </p>
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Ação Cidadã</h1>
+                    <p class="hero-subtitle">Conectando cidadãos para um futuro melhor.</p>
+                </div>
+                <div class="hero-image-container">
+                    <img src="./Src/IMG/image.png" alt="Ilustração do aplicativo" class="hero-image">
+                </div>
             </div>
-            <img src="./Src/IMG/8252009_3873169.jpg" alt="" class="imagemInicio">
         </section>
 
-        <section class="secaoDescricao">
-            <h2 class="tituloDescricaoProjeto">Detalhes do projeto</h2>
-            <div class="campoDescricao">
-                <h3 class="tituloDescricao">Apresentação do projeto</h3>
-                <div class="campoTextoDescricao" style="display: none;">
-                    <p class="textoDescricao">Olá, seja bem-vindo ao portfólio do projeto "Ação Cidadã"!</p>
-                    <p class="textoDescricao">Este website tem como principal objetivo apresentar o projeto "Ação
-                        Cidadã",
-                        um aplicativo desenvolvido para promover o engajamento social e facilitar o acesso a
-                        serviços e informações de interesse público, além de servir como uma ponte de comunicação entre
-                        o
-                        poder público e a população.</p>
-                    <p class="textoDescricao">Aqui, você encontrará detalhes sobre as funcionalidades do aplicativo,
-                        seus
-                        principais objetivos e como ele irá operar para atender às necessidades da comunidade. Nosso
-                        compromisso é oferecer uma plataforma intuitiva e eficiente, conectando cidadãos a iniciativas
-                        sociais, órgãos públicos.</p>
-                </div>
-            </div>
-            <div class="campoDescricao">
-                <h3 class="tituloDescricao">Sobre o aplicativo</h3>
-                <div class="campoTextoDescricao" style="display: none;">
-                    <p class="textoDescricao">
-                        O aplicativo "Ação Cidadã" tem como principal objetivo facilitar a comunicação entre a população
-                        e o
-                        poder público, atuando como uma ponte eficiente para a identificação e resolução de problemas
-                        enfrentados pela sociedade.
-                    </p>
-                    <p class="textoDescricao">
-                        Atualmente, um dos maiores desafios da administração pública é a falta de canais acessíveis e
-                        eficazes para que os cidadãos possam relatar ocorrências e acompanhar a solução de demandas.
-                        Pensando nisso, nosso aplicativo foi desenvolvido para oferecer uma plataforma intuitiva e
-                        acessível, permitindo que qualquer pessoa possa registrar e acompanhar denúncias sobre questões
-                        que
-                        afetam a comunidade, como:
-                    </p>
+        <section id="projeto" class="container">
+            <h2 class="section-title">Detalhes do Projeto</h2>
 
-                    <ul class="listaProblemas">
-                        <li class="itemProblema">Buracos em vias públicas</li>
-                        <li class="itemProblema">Áreas com acúmulo de água parada (possível foco de doenças)</li>
-                        <li class="itemProblema">Iluminação pública defeituosa</li>
-                        <li class="itemProblema">Falta de coleta de lixo</li>
-                    </ul>
-
-                    <p class="textoDescricao">
-                        Através do "Ação Cidadã", os cidadãos poderão enviar relatos diretamente aos órgãos
-                        responsáveis,
-                        anexando fotos e descrições detalhadas. Com isso, o poder público terá uma ferramenta mais
-                        eficiente
-                        para identificar, priorizar e resolver problemas de maneira ágil e transparente, fortalecendo a
-                        participação popular na gestão da cidade.
-                    </p>
-                    <p class="textoDescricao">
-                        Nosso compromisso é tornar a comunicação entre população e governo mais simples e eficaz,
-                        contribuindo para a construção de comunidades mais organizadas e bem assistidas.
-                    </p>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3 class="accordion-title">Apresentação</h3>
+                    <i class="fas fa-chevron-down accordion-icon"></i>
                 </div>
-            </div>
-            <div class="campoDescricao" id="comunidade">
-                <h3 class="tituloDescricao">Comunidade</h3>
-                <div class="campoTextoDescricao" style="display: none;">
-                    <p class="textoDescricao">
-                        O aplicativo "Ação Cidadã" é voltado para toda a população, abrangendo jovens, adultos e idosos
-                        que enfrentam desafios como (problemas em estradas, situações que possam afetar a saúde da população, etc) em seu dia a dia e buscam soluções eficazes para problemas que podem ser resolvidos pelo poder público ou até mesmo por empresas privadas.</p>
-                    <p class="textoDescricao">""
-                        A plataforma foi desenvolvida para ser acessível e intuitiva, permitindo que qualquer cidadão
-                        registre ocorrências e acompanhe o andamento das solicitações. Dessa forma, "Ação Cidadã" se
-                        torna uma ferramenta essencial para auxiliar que a população obtenha uma melhoria da
-                        infraestrutura urbana e da qualidade de vida da comunidade.</p>
-                </div>
-            </div>
-            <div class="campoDescricao" id="quemSomos">
-                <h3 class="tituloDescricao">Equipe</h3>
-                <div class="campoTextoDescricao" style="display: none;">
-                    <div class="Integrantes">
-                        <div class="cards">
-                            <img src="./Src/IMG/foto-integrante4.jpg" alt="" class="imagemPovo">
-                            <h1 class="nome">Daniel Sampaio </h1>
-                            <p class="curso">Engenharia de Software</p>
-                            <a href="https://github.com/DanNikk0" class="github">
-                                <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
-                                    ; alt="">
-                            </a>
-                        </div>
-                        <div class="cards">
-                            <img src="./Src/IMG/foto-integrante5.jpg" alt="" class="imagemPovo">
-                            <h1 class="nome">João Vitor Tupan </h1>
-                            <p class="curso">Engenharia de Software</p>
-                            <a href="https://github.com/JoaoVitorTupan" class="github">
-                                <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
-                                    ; alt="">
-                            </a>
-                        </div>
-                        <div class="cards">
-                            <img src="./Src/IMG/foto-integrante3.jpg" alt="" class="imagemPovo">
-                            <h1 class="nome">Josyannie Poyer </h1>
-                            <p class="curso">Engenharia de Software</p>
-                            <a href="https://github.com/JosyPoyer" class="github">
-                                <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
-                                    ; alt="">
-                            </a>
-                        </div>
-                        <div class="cards">
-                            <img src="./Src/IMG/foto-integrante2.jpg" alt="" class="imagemPovo">
-                            <h1 class="nome">Rafael Ferreira </h1>
-                            <p class="curso">Engenharia de Software</p>
-                            <a href="https://github.com/rafaeuferreira" class="github">
-                                <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
-                                    ; alt="">
-                            </a>
-                        </div>
-                        <div class="cards">
-                            <img src="./Src/IMG/foto-integrante1.jpg" alt="" class="imagemPovo">
-                            <h1 class="nome">Vitor Gabriel </h1>
-                            <p class="curso">Engenharia de Software</p>
-                            <a href="https://github.com/VitorGabriel741" class="github">
-                                <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
-                                    ; alt="">
-                            </a>
-                        </div>
+                <div class="accordion-content">
+                    <div class="accordion-content-inner">
+                        <p>Olá, seja bem-vindo ao portfólio do projeto "Ação Cidadã"! Este website tem como principal
+                            objetivo apresentar nosso aplicativo, desenvolvido para promover o engajamento social e
+                            facilitar a comunicação entre o poder público e a população.</p>
                     </div>
                 </div>
             </div>
-            <div class="campoDescricao">
-                <h3 class="tituloDescricao">Sobre a extensão currricular</h3>
-                <div class="campoTextoDescricao" style="display: none;">
-                    <p class="textoDescricao">
-                        A extensão curricular é uma ferramenta essencial no ambiente acadêmico, permitindo que
-                        apliquemos, na prática, o conhecimento adquirido em nosso curso de Engenharia de Software. Por
-                        meio deste projeto, foi possível criar uma solução que beneficia a sociedade, auxiliando na
-                        resolução de problemas reais e promovendo um impacto social positivo.
-                    </p>
-                    <p class="textoDescricao">
-                        Com a criação do aplicativo "Ação Cidadã", torna-se evidente como a extensão curricular vai além
-                        do suporte ao nosso desenvolvimento acadêmico. A extensão curricular também contribui significativamente para a população, ao viabilizar soluções práticas para desafios enfrentados pela população no dia a dia, como a melhoria da comunicação entre cidadãos e órgãos públicos. Dessa forma, a iniciativa não apenas aprimora nossas habilidades técnicas mas também conceituais em como podemos auxiliar a população.
-                    </p>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3 class="accordion-title">Sobre o Aplicativo</h3>
+                    <i class="fas fa-chevron-down accordion-icon"></i>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-content-inner">
+                        <p>O aplicativo "Ação Cidadã" atua como uma ponte eficiente para a identificação e resolução de
+                            problemas. Através dele, cidadãos podem registrar ocorrências como:</p>
+                        <ul>
+                            <li>Buracos em vias públicas</li>
+                            <li>Iluminação pública defeituosa</li>
+                            <li>Falta de coleta de lixo</li>
+                        </ul>
+                        <p>Nosso compromisso é tornar a comunicação mais simples e eficaz, contribuindo para comunidades
+                            mais organizadas.</p>
+                    </div>
                 </div>
             </div>
 
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3 class="accordion-title">Comunidade</h3>
+                    <i class="fas fa-chevron-down accordion-icon"></i>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-content-inner">
+                        <p>O "Ação Cidadã" é voltado para toda a população que busca soluções eficazes para problemas do
+                            dia a dia. A plataforma foi desenvolvida para ser acessível e intuitiva, permitindo que
+                            qualquer cidadão contribua para a melhoria da infraestrutura urbana e da qualidade de vida
+                            da comunidade.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3 class="accordion-title">Sobre a Extensão Curricular</h3>
+                    <i class="fas fa-chevron-down accordion-icon"></i>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-content-inner">
+                        <p>Este projeto é uma iniciativa de extensão curricular do curso de Engenharia de Software. Ele
+                            nos permite aplicar na prática os conhecimentos adquiridos, criando uma solução que
+                            beneficia a sociedade e promove um impacto social positivo, ao mesmo tempo que aprimora
+                            nossas habilidades técnicas e conceituais.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3 class="accordion-title">Acesso ao aplicativo</h3>
+                    <i class="fas fa-chevron-down accordion-icon"></i>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-content-inner">
+                        <p>Para acessar o aplicativo, clique no link abaixo:</p>
+                        <a
+                            href="https://vitorgabrieldossantosg.github.io/MVP_AC/">https://vitorgabrieldossantosg.github.io/MVP_AC/</a>
+                    </div>
+                </div>
+            </div>
+
+            <section id="documentos" class="containerDocs">
+                <h2 class="section-title">Documentos do Projeto</h2>
+                <div class="document-list">
+                    <a href="./Src/Docs/Visão.pdf" class="document-link" download="Documento_Visao_Acao_Cidada.pdf">
+                        <i class="fas fa-file-alt"></i>
+                        <span>Documento de Visão</span>
+                        <i class="fas fa-download"></i>
+                    </a>
+                    <a href="./Src/Docs/CasoDeUso.pdf" class="document-link"
+                        download="Documento_CasoDeUso_Acao_Cidada.pdf">
+                        <i class="fas fa-file-alt"></i>
+                        <span>Caso de Uso</span>
+                        <i class="fas fa-download"></i>
+                    </a>
+                    <a href="./Src/Docs/modeloDeBancoDeDados.png" class="document-link"
+                        download="Documento_ModeloBancoDeDados_Acao_Cidada.png">
+                        <i class="fas fa-file-alt"></i>
+                        <span>Modelo de banco de dados</span>
+                        <i class="fas fa-download"></i>
+                    </a>
+                    <a href="./Src/Docs/workflow.png" class="document-link"
+                        download="Documento_Workflow_Acao_Cidada.png">
+                        <i class="fas fa-file-alt"></i>
+                        <span>Workflow</span>
+                        <i class="fas fa-download"></i>
+                    </a>
+                </div>
+            </section>
+
+        </section>
+        <section id="quem-somos" class="container">
+            <h2 class="section-title">Nossa Equipe</h2>
+            <div class="team-grid">
+                <div class="team-card">
+                    <img src="./Src/IMG/foto-integrante4.jpg" alt="Foto Daniel Sampaio" class="team-avatar">
+                    <h3 class="team-name">Daniel Sampaio</h3>
+                    <p class="team-role">Eng. de Software</p>
+                    <div class="team-social">
+                        <a href="https://github.com/DanNikk0" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="./Src/IMG/foto-integrante5.jpg" alt="Foto João Vitor Tupan" class="team-avatar">
+                    <h3 class="team-name">João Vitor Tupan</h3>
+                    <p class="team-role">Eng. de Software</p>
+                    <div class="team-social">
+                        <a href="https://github.com/JoaoVitorTupan" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="./Src/IMG/foto-integrante3.jpg" alt="Foto Josyannie Poyer" class="team-avatar">
+                    <h3 class="team-name">Josyannie Poyer</h3>
+                    <p class="team-role">Eng. de Software</p>
+                    <div class="team-social">
+                        <a href="https://github.com/JosyPoyer" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="./Src/IMG/foto-integrante2.jpg" alt="Foto Rafael Ferreira" class="team-avatar">
+                    <h3 class="team-name">Rafael Ferreira</h3>
+                    <p class="team-role">Eng. de Software</p>
+                    <div class="team-social">
+                        <a href="https://github.com/rafaeuferreira" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="./Src/IMG/foto-integrante1.jpg" alt="Foto Vitor Gabriel" class="team-avatar">
+                    <h3 class="team-name">Vitor Gabriel</h3>
+                    <p class="team-role">Eng. de Software</p>
+                    <div class="team-social">
+                        <a href="https://github.com/VitorGabriel741" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
         </section>
 
+        </section>
     </main>
 
+    <footer style="text-align: center; padding: 2rem; background-color: var(--dark-color); color: var(--light-color);">
+        <p>&copy; 2024 Ação Cidadã. Todos os direitos reservados.</p>
+    </footer>
+
     <script>
-        const titulos = document.querySelectorAll('.campoDescricao');
 
-        titulos.forEach(titulo => {
-            titulo.addEventListener('click', () => {
-                const description = titulo.lastElementChild;
+        const accordionItems = document.querySelectorAll('.accordion-item');
 
-                description.style.display = description.style.display === 'none' ? 'block' : 'none';
+        accordionItems.forEach(item => {
+            const header = item.querySelector('.accordion-header');
+            const content = item.querySelector('.accordion-content');
+
+            header.addEventListener('click', () => {
+                accordionItems.forEach(otherItem => {
+                    if (otherItem !== item && otherItem.classList.contains('active')) {
+                        otherItem.classList.remove('active');
+                        otherItem.querySelector('.accordion-content').style.maxHeight = null;
+                    }
+                });
+
+                item.classList.toggle('active');
+                if (item.classList.contains('active')) {
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                } else {
+                    content.style.maxHeight = null;
+                }
             });
         });
 
