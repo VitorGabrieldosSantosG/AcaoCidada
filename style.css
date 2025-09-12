@@ -238,7 +238,7 @@ a:hover {
 }
 
 .accordion-content-inner {
-    padding: 0 1.5rem 1.5rem;
+    padding: 1.5rem;
     border-top: 1px solid var(--border-color);
 }
 
@@ -370,4 +370,9 @@ a:hover {
     .team-grid {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
+    .document-link {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
 }
